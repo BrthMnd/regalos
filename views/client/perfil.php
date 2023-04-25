@@ -9,11 +9,11 @@ if (!isset($_SESSION["usuario"])) {
         <h2 style="text-align: center; margin: 0;">Perfil</h2>
         <div class="profile-img-name" style="margin: 20px;">
             <div style="margin: 0px 40px; display: flex; align-items: center;">
-                <img style="border-radius: 40%;" src="../../<?php if (isset($informacion["foto_perfil"]) && $informacion["foto_perfil"] != "" && $informacion["foto_perfil"] != "NULL") {
+                <img style="border-radius: 40%;" src="./<?php if (isset($informacion["foto_perfil"]) && $informacion["foto_perfil"] != "" && $informacion["foto_perfil"] != "NULL") {
                                                                 echo ($informacion["foto_perfil"]);
                                                             } else {
-                                                                echo ("assets/svg/login-user.svg");
-                                                            } ?>" height="100px" alt="foto de perfil">
+                                                                echo ("./assets/svg/login-user.svg");
+                                                            } ?>" height="100px"  alt="foto de perfil">
             </div>
             <div style="display: flex; flex-direction: column; justify-content: center; width: 100%;">
                 <p><?php echo ($informacion["nombre"] . " " . $informacion["apellido"]) ?></p>

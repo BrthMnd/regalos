@@ -17,17 +17,17 @@ if (isset($_SESSION["admin"])) {
 <div class="div-center">
     <div class="card login">
         <div class="login-img div-center">
-            <img src="../../assets/svg/login-user.svg" style="border-radius: 50%;">
+            <img src="./assets/svg/login-user.svg" style="border-radius: 50%;">
         </div>
         <div style="display: flex; justify-content: center;">
             <form action="index.php?c=client&a=loginAuth" method="post">
                 <p style="font-size: 30px; margin-top: 0;">Login</p>
                 <div class="form-div-stile">
-                    <img src="../../assets/svg/correo.svg" alt="correo">
+                    <img src="./assets/svg/correo.svg" alt="correo">
                     <input id="email" type="text" placeholder="E-mail" name="email" required>
                 </div>
                 <div class="form-div-stile">
-                    <img src="../../assets/svg/contraseña.svg" alt="contraseña">
+                    <img src="./assets/svg/contraseña.svg" alt="contraseña">
                     <input type="text" placeholder="Contraseña" name="contrasenha" required>
                 </div>
                 <div class="div-right" style="width: 100%;margin-bottom: 10px;padding: 10px;">

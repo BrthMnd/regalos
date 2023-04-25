@@ -10,13 +10,13 @@ if (isset($_SESSION["false"])) {
 <div class="div-center">
     <div class="card login">
         <div class="login-img div-center">
-            <img src="../../assets/svg/login-user.svg" style="border-radius: 50%;">
+            <img src="./assets/svg/login-user.svg" style="border-radius: 50%;">
         </div>
         <div style="display: flex; justify-content: center;">
             <form action="index.php?log=false&c=client&a=RetrievePaswordCode" method="post">
                 <p style="font-size: 30px; margin-top: 0;">Recuperar Contraseña</p>
                 <div class="form-div-stile">
-                    <img src="../../assets/svg/codigo-de-acceso.svg" alt="codigo">
+                    <img src="./assets/svg/codigo-de-acceso.svg" alt="codigo">
                     <input type="text" placeholder="Codigo de verificación" name="codigo" required>
                 </div>
                 <div class="form-div-stile" style="width: auto;">

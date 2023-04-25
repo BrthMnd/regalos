@@ -7,13 +7,13 @@
 <div class="div-center">
     <div class="card login">
         <div class="login-img div-center">
-            <img src="../../assets/svg/login-user.svg" style="border-radius: 50%;">
+            <img src="./assets/svg/login-user.svg" style="border-radius: 50%;">
         </div>
         <div style="display: flex; justify-content: center;">
             <form action="index.php?log=false&c=client&a=RetrievePasword" method="post">
                 <p style="font-size: 30px; margin-top: 0;">Recuperar Contraseña</p>
                 <div class="form-div-stile">
-                    <img src="../../assets/svg/correo.svg" alt="correo">
+                    <img src="./assets/svg/correo.svg" alt="correo">
                     <input id="email" type="text" placeholder="E-mail" name="email" required>
                 </div>
                 <div class="form-div-stile" style="width: auto;">
